@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync LeetCode Today Problem
-        uses: spencercjh/sync-leetcode-today-problem@0.0.2
+        uses: spencercjh/sync-leetcode-today-problem@0.1.1
         with:
           language: Java
+          neet_test: True
